@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px auto;
+    font-family: 'Open Sans', sans-serif;
+}
+.header_top2> p{
+    padding: 5px 50px 5px 25px;
+    border-left: 0.5px solid rgba(216, 210, 210, 0.932);
+}
+.header_top2> :first-child{
+    border: none;
+    padding-left: 0px;
+}
+.menu> p{
+    height: 50px;
+    text-align: center;
+    color: grey;
+    padding-top: 1.2rem;
+    padding-left: 1rem;
+}
+.menu> :nth-child(1){
+    color: beige;
+}
+.general_image {
+    box-sizing: border-box;
+}
+.accessories1{
+    background-image: url(../images/bag.jpg);
+    height: 120px;
+    background-size: cover;
+    
+}
+.accessories1> h3{
+    color: white;
+}
+.accessories2{
+    background-image: url(../images/watch.jpg);
+    height: 120px;
+    background-size: cover;
+}
+.accessories2> h3{
+    color: white;
+}
+.accessories3{
+    background-image: url(../images/shoes.jpg);
+    height: 120px;
+    background-size: cover;
+}
+.accessories3> h3{
+    color: white;
+}
+.grid_top{
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "  head      head      head"
+                         "Handbags   Watches   Shoes";
+}
+.head{
+    grid-area: head;
+}
+
+.accessories1{
+    grid-area: Handbags;
+}
+
+.accessories2{
+    grid-area: Watches;
+}
+
+.accessories3{
+    grid-area: Shoes;
+}
+button{
+    width: 150px;
+    height: 40px;
+}
+.jaket1{
+    grid-area: jaket;
+}
+.pants1{
+    grid-area: pants1;
+}
+.sweeter1{
+    grid-area: sweeter1;
+}
+.jacet2{
+    grid-area: jacet2;
+}
+.belt{
+    grid-area: belt;
+}
+.pants2{
+    grid-area: pants2;
+}
+.jacet3{
+    grid-area: jacet3;
+}
+.sweeter2{
+    grid-area: sweeter2;
+}
+.grid_products{
+    margin-top: -400px;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "jacet   pants1  sweeter1   jacet2"
+                         "belt    pants2   jacet3   sweeter2";
+}
+.grid_products img{
+    width: 250px;
+    height: 350px;
+    object-fit: contain;
+}
+footer>p{
+    border-bottom: 0.5px solid rgba(216, 210, 210, 0.932);
+    margin-bottom: 5px;
+}
+footer>:last-child{
+    border: none;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+footer{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "inf   cust   ext  account"
+                        "about  cont    br    acc"
+                         "deli   ret   gift   ord"
+                         " pp    sm    aff    wl" 
+                         "ter     .    sp     news "
+                         "foot   foot  foot   foot";
+}
+.inf{
+    grid-area: inf;
+}
+.cust{
+    grid-area: cust;
+}
+.ext{
+    grid-area: ext;
+}
+.account{
+    grid-area: account;
+}
+.about{
+    grid-area: about;
+}
+.cont{
+    grid-area: cont;
+}
+.br{
+    grid-area: br;
+}
+.acc{
+    grid-area: acc;
+}
+.deli{
+    grid-area: deli;
+}
+.ret{
+    grid-area: ret;
+}
+.gift{
+    grid-area: gift; 
+}
+.ord{
+    grid-area: ord;
+}
+.pp{
+    grid-area: pp;
+}
+.sm{
+    grid-area: sm;
+}
+.aff{
+    grid-area: aff;
+}
+.wl{
+    grid-area: wl;
+}
+.ter{
+    grid-area: ter;
+}
+.sp{
+    grid-area: sp;
+}
+.news{
+    grid-area: news;
+}
+.foot{
+    grid-area: foot;
+}
